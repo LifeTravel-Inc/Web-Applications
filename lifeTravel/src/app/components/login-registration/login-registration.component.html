@@ -1,0 +1,53 @@
+<body>
+    <mat-toolbar class="narvar">
+        <span routerLink="/">LIFETRAVEL</span>
+    </mat-toolbar>
+    <section class="main-container">
+        <div class="back-img">
+        </div>
+        <div class="forms">
+            <div class="Encabezado">
+                <h1>
+                    Registro de Usuario
+                </h1>
+            </div>
+            <div class="login-struct">
+                <form  [formGroup]="myForm">
+                    <div class="registroName ">
+                        <div class="registro">
+                            <label for="lname">Nombres:</label>
+                        </div>
+                        <input matInput formControlName="name"  placeholder="Ingrese sus nombres"><br><br>
+                        <div class="registro">
+                            <label for="lastname">Apellidos:</label>
+                        </div>
+                        <input matInput formControlLastname="lastname" placeholder="Ingrese sus apellidos"><br><br>
+
+                    </div>
+                    <div class="registro">
+                        <label for="lphone">Teléfono:</label>
+                    </div>
+                    <input type="tel" matInput formControlName="phone" placeholder="Ingrese numero telefonico"><br><br>
+                    <div class="registro">
+                        <label for="email">Email:</label>
+                    </div>
+                    <input type="email" matInput formControlName="email" placeholder="Email"><br><br>
+                    <div class="registro">
+                        <label for="lpasword">Contraseña:</label>
+                    </div>
+                    <input type="text" matInput formControlName="password" placeholder="Contraseña"><br><br>
+                    
+                    <div class="btns">
+                        <button class="btn-success" type="button" (click)="saveUser()">
+                            Registrarme
+                        </button>
+                        <button class="btn-agency " type="button" routerLink="/register/agency">
+                            Agencia
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+

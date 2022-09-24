@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginComponent } from './components/login/login.component';
-
 import { LoginAgencyComponent } from './components/login-agency/login-agency.component';
 import { LoginRegistrationComponent } from './components/login-registration/login-registration.component';
 import { LoginRegistrationAgencyComponent } from './components/login-registration-agency/login-registration-agency.component';
@@ -15,9 +14,6 @@ import { AgencyDestinoComponent } from './components/agency-destino/agency-desti
 import { AngulaMaterialModule } from './components/shared/angula-material/angula-material.module';
 import { DestinoDialogComponent } from './components/destino-dialog/destino-dialog.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-=======
-import { LoginUserComponent } from './components/login-user/login-user.component';
-
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 
@@ -25,7 +21,6 @@ import { ReactiveFormsModule } from '@angular/forms';
   declarations: [
     AppComponent,
     LoginComponent,
-
     LoginAgencyComponent,
     LoginRegistrationComponent,
     LoginRegistrationAgencyComponent,
@@ -34,19 +29,11 @@ import { ReactiveFormsModule } from '@angular/forms';
     AgencyDestinoComponent,
     DestinoDialogComponent,
     NavbarComponent
-=======
-    LoginUserComponent,
-    
-
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-
     BrowserAnimationsModule, AngulaMaterialModule, 
-=======
-    BrowserAnimationsModule,
-
     HttpClientModule,ReactiveFormsModule  
   ],
   providers: [],

@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './components/login/login.component';
-
 import { AgencyDestinoComponent } from './components/agency-destino/agency-destino.component';
 import { HomeAgencyComponent } from './components/home-agency/home-agency.component';
 import { LoginAgencyComponent } from './components/login-agency/login-agency.component';
@@ -18,9 +17,6 @@ const routes: Routes = [
   { path: 'register/agency', component: LoginRegistrationAgencyComponent },
   { path: 'home/agency', component: HomeAgencyComponent },
   { path: 'agency/desti', component: AgencyDestinoComponent },
-
-=======
-  { path: 'login/user', component: LoginUserComponent },
 
 ];
 

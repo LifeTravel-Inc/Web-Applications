@@ -1,0 +1,17 @@
+.narvar {
+    background-color: #6DA7D6;
+}
+
+span {
+    color: #108CFF;
+}
+.login-struct {
+    display:flex;
+    justify-content: center;
+    width: 800px;
+    height: 800px;
+    padding: 50px;
+}
+.btn {
+    justify-content: center;
+}
