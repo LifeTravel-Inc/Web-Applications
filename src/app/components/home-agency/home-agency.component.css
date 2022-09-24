@@ -1,0 +1,90 @@
+.narvar {
+    background-color: #6DA7D6;
+}
+
+span {
+    color: #108CFF;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+}
+
+.main-container .back-img {
+    min-width: 720px;
+    min-height: 600px;
+    padding: 5px;
+    margin: 50px;
+    background-image: url('./img/img.jpg');
+}
+
+.login-struct {
+    justify-content: center;
+    padding: 80px;
+    margin: 50px;
+}
+
+h1 {
+    color: #00A991;
+    font-size: 50px;
+}
+
+.btn-container {
+    display: flexbox;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.btn1 {
+    background-color: #00A991;
+    width: 250px;
+    height: 50px;
+    border: 0px;
+    margin: 20px;
+    border-radius: 4px;
+    padding: 8px 25px;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+.btn2 {
+    background-color: #00A991;
+    width: 250px;
+    height: 50px;
+    border: 0px;
+    margin: 20px;
+    border-radius: 4px;
+    padding: 8px 25px;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+.btn3 {
+    background-color: #00A991;
+    width: 250px;
+    height: 50px;
+    border: 0px;
+    margin: 20px;
+    border-radius: 4px;
+    padding: 8px 25px;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+.btn4 {
+    background-color: #00A991;
+    width: 250px;
+    height: 50px;
+    border: 0px;
+    margin: 20px;
+    border-radius: 4px;
+    padding: 8px 25px;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
