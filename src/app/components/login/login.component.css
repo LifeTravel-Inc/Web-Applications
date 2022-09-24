@@ -1,0 +1,75 @@
+.narvar {
+    background-color: #6DA7D6;
+    justify-content: center;
+}
+
+span {
+    color: #108CFF;
+}
+
+.main-container {
+    display: flex;
+}
+
+.main-container .back-img {
+    width: 1000px;
+    height: 600px;
+    padding: 10px;
+    margin: 70px;
+    background-image: url('./img/login.jpg');
+}
+
+.login-struct {
+    justify-content: center;
+    padding: 80px;
+    margin: 50px;
+}
+
+.titles {
+    justify-content: center;
+    text-align: center;
+}
+
+.bts {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.btn1 {
+
+    display: inline-block;
+    background-color: #00A991;
+    border: 0px;
+    margin: 20px;
+    border-radius: 4px;
+    padding: 8px 25px;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+.btn2 {
+    display: inline-block;
+    background-color: #00A991;
+    border: 0px;
+    margin: 20px;
+    border-radius: 4px;
+    padding: 8px 25px;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+.btn3 {
+    display: inline-block;
+    background-color: #00A991;
+    border: 0px;
+    margin: 20px;
+    border-radius: 4px;
+    padding: 8px 25px;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}

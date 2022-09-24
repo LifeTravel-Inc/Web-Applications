@@ -1,0 +1,37 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "name": "Luis",
+      "lastname": "Ortiz",
+      "phone": "987654321",
+      "email": "ortiz@gmail.com",
+      "password": "ar12345678"
+    },
+    {
+      "id": "MD8guPC",
+      "name": "Renzo",
+      "lastname": "",
+      "phone": "8341212001",
+      "email": "renzoantonioherreraracastro@gmail.com",
+      "password": "qweqwe123"
+    },
+    {
+      "id": "z5FNdSK",
+      "name": "Renzo",
+      "lastname": "",
+      "phone": "8341212001",
+      "email": "renzoantonioherreraracastro@gmail.com",
+      "password": "qweqwe123"
+    }
+  ],
+  "agency": [
+    {
+      "id": "1",
+      "name": "Monache",
+      "phone": "963852741",
+      "email": "monache@gmail.com",
+      "password": "mona120123"
+    }
+  ]
+}
