@@ -1,0 +1,48 @@
+
+<body>
+    <mat-toolbar class="narvar">
+      <span>LIFETRAVEL</span>
+      <h1>Mis Viajes</h1>
+      <mat-icon>shopping_cart</mat-icon>
+    </mat-toolbar>
+    <section class="main-container">
+          <div class="Encabezado">
+            <h1>RESERVE LUGARES UNICOS Y DISFRUTE</h1>
+            <h1>DE SU VIAJE</h1>
+          </div>
+          <div class="login-struct">
+            <form class="example-form" [formGroup]="myForm">
+              
+                  <mat-form-field class="example-full-width" appearance="fill">
+                    <mat-label>Destino</mat-label>
+                    <input matInput formControlName="name_destiny" />
+                    <mat-icon matSuffix>room</mat-icon>
+                  </mat-form-field>
+
+                  
+                  <mat-form-field class="example" appearance="fill">
+                    <mat-label>Check-in</mat-label>
+                    <input matInput>
+                  </mat-form-field>
+                  <mat-form-field class="example" appearance="fill">
+                    <mat-label>Checkout</mat-label>
+                    <input matInput>
+                  </mat-form-field>
+                    
+                  <mat-form-field class="example-full-width" appearance="fill">
+                    <mat-label>Pasajeros</mat-label>
+                    <mat-select>
+                      <mat-option value="option">2 Adultos</mat-option>
+                    </mat-select>
+                  </mat-form-field>
+                <button
+                  mat-raised-button
+                  (click)="sendDestiny()"
+                >
+                Buscar
+                </button>
+            </form>
+          </div>
+  </section>
+</body>
+  

@@ -1,0 +1,49 @@
+<body>
+    <mat-toolbar class="narvar">
+      <span>LIFETRAVEL</span>
+      <h1>Mis Viajes</h1>
+      <mat-icon>shopping_cart</mat-icon>
+    </mat-toolbar>
+    <mat-toolbar class="title">
+        <mat-icon>home</mat-icon>
+        <h1>Selección de Vuelos</h1>
+      </mat-toolbar>
+    <section class="main-container" *ngFor="let flight of flights;  let indice=index">
+        <mat-card class="flight" >
+            <div>
+                <section class="images">
+                    <img mat-card-image src="https://previews.123rf.com/images/koltukovalek/koltukovalek1707/koltukovalek170700095/82812918-logotipo-de-la-compa%C3%B1%C3%ADa-de-viajes-r-letter-dise%C3%B1o-de-logotipo-de-viajes-de-negocios-de-aerol%C3%ADneas-co.jpg" alt="Photo of Airlane Travel">
+                </section>
+                <section class="beetween">
+                    <mat-card-title>{{ flights[indice].time_go }}</mat-card-title>
+                    <mat-card-subtitle>{{ flights[indice].description }}</mat-card-subtitle>
+                </section>  
+                <section class="beetween">
+                    <mat-card-title>{{ flights[indice].type }}</mat-card-title>
+                    <mat-card-subtitle>{{ flights[indice].time_flight }}</mat-card-subtitle>
+                </section>
+                    <button
+                    mat-raised-button
+                    >
+                    {{ flights[indice].price }}
+                </button>
+            </div>
+            <div>
+                <section class="images">
+                    <img mat-card-image src="https://www.brandemia.org/wp-content/uploads/2013/05/7_Avianca_logo_959_487_cy_90.jpg" alt="Photo of Avianca">
+                </section>
+                <section class="beetween">
+                    <mat-card-title>{{ flights[indice].time_return }}</mat-card-title>
+                    <mat-card-subtitle>{{ flights[indice].description_return }}</mat-card-subtitle>
+                </section>  
+                <section class="beetween">
+                    <mat-card-title>{{ flights[indice].type_return }}</mat-card-title>
+                    <mat-card-subtitle>{{ flights[indice].time_flight_return }}</mat-card-subtitle>
+                </section>
+            </div>
+            <section class="division">
+
+            </section>
+        </mat-card>
+    </section>
+</body>

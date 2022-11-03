@@ -1,0 +1,59 @@
+.narvar {
+    background-color: #a1c8e7;
+    display: flex;
+}
+span {
+    color: #108CFF;
+    flex: 1 1 auto;
+}
+.mat-icon { 
+    font-size: 60px; 
+    width: 60px;
+    height: 60px;
+    margin-left: 100px;
+ }
+body{
+    background-image: url('./img/bote.jpg');
+    background-size: 100% 100%;
+}
+.main-container{
+    margin: 50px;
+}
+div.Encabezado h1{
+    color: rgb(75, 148, 126);
+    font-weight: bold;
+}
+ button{
+    background-color: rgb(108, 219, 186);
+    color: white;
+    border-color: rgb(108, 219, 186);
+    border-radius: 5px;
+
+    width: 200px;
+    height: 60px;
+
+    margin-left: 150px;
+
+    font-size: 25px;
+ }
+ mat-label{
+    color: #5ea4e6;
+ }
+ mat-form-field mat-icon{
+    color: black;
+    font-size: 30px; 
+    width: 30px;
+    height: 30px;
+ }
+
+ .example-full-width {
+    display: block;
+    width: 500px;
+    line-height: 50px;
+
+  }
+  .example{
+    width: 225px;
+    line-height: 50px;
+    margin-right: 50px;
+  }

@@ -1,0 +1,70 @@
+.narvar {
+    background-color: #a1c8e7;
+}
+span {
+    color: #108CFF;
+    flex: 1 1 auto;
+}
+.mat-icon { 
+    font-size: 60px; 
+    width: 60px;
+    height: 60px;
+    margin-left: 100px;
+ }
+ mat-toolbar.title{
+    height: 100px;
+ }
+.title h1{
+    margin: 35%;
+    font-size: 30px; 
+ }
+.title mat-icon{
+    margin-left: 0;
+}
+
+.main-container{
+    display: inline-flex;
+}
+
+mat-card{
+    width: 550px;
+    height: 101px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+mat-card div{
+    margin-left: 50px;
+    display: flex;
+}
+.flight{
+
+    background-color: #BAEFEB;
+}
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+.images{
+    margin-top: 12px;
+}
+.beetween{
+    display: block;
+}
+.beetween mat-card-subtitle{
+    margin-left: 50px;
+}
+mat-card-title{
+    margin-left: 50px;
+    font-size: 20px; 
+}
+button{
+    width: 120px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 30px;
+    background-color: rgb(108, 219, 186);
+    color: white;
+    border-color: rgb(108, 219, 186);
+    border-radius: 5px;
+}

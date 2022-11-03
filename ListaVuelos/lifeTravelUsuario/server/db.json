@@ -1,0 +1,142 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "name": "Luis",
+      "lastname": "Ortiz",
+      "phone": "987654321",
+      "email": "ortiz@gmail.com",
+      "password": "ar12345678"
+    },
+    {
+      "id": "MD8guPC",
+      "name": "Renzo",
+      "lastname": "",
+      "phone": "8341212001",
+      "email": "renzoantonioherreraracastro@gmail.com",
+      "password": "qweqwe123"
+    },
+    {
+      "id": "z5FNdSK",
+      "name": "Renzo",
+      "lastname": "",
+      "phone": "8341212001",
+      "email": "renzoantonioherreraracastro@gmail.com",
+      "password": "qweqwe123"
+    }
+  ],
+  "agency": [
+    {
+      "id": "1",
+      "name": "Monache",
+      "phone": "963852741",
+      "email": "monache@gmail.com",
+      "password": "mona120123"
+    },
+    {
+      "id": "-DO1W-r",
+      "name": "OrtizAfwenci",
+      "phone": "983127120",
+      "email": "Orgizasd@gmail.com",
+      "password": "Pwedasd.123"
+    }
+  ],
+  "destiny": [
+    {
+      "id": "1",
+      "name": "Cuzco",
+      "description": "Machu Picchu (pronunciado /ˈmɐt͡ʃʊ ˈpɪkt͡ʃʊ/ en quechua, «monte viejo») es el nombre contemporáneo que se da a una llacta —antiguo poblado incaico andino— construida antes del siglo xv, ubicada en la Cordillera Oriental del sur del Perú, en la cadena montañosa de Los Andes a 2430 metros sobre el nivel del mar. Está ubicada en la región Cusco (provincia de Urubamba, distrito de Machupicchu) sobre el Valle Sagrado de los Incas, a 80 kilómetros al noroeste de la ciudad de Cusco, ciudad del Perú y por donde fluye el río Urubamba, río que atraviesa la cordillera y origina un cañón con clima de montaña tropical. Según muchos estudiosos su nombre original habría sido Llaqtapata."
+    },
+    {
+      "id": "2",
+      "name": "Lima",
+      "description": "El lugar para soñar"
+    }
+  ],
+  "flight": [
+    {
+      "id": "1",
+      "time_go": "21:25 - 23:40",
+      "description": "Lim - Cuz",
+      "type": "Directo",
+      "time_flight": "01h 15m",
+
+      "time_return": "08:00 - 11:50",
+      "description_return": "Cuz - Lim",
+      "type_return": "A Escalas",
+      "time_flight_return": "03h 15m",
+
+      "price": "S/. 100"
+    },
+    {
+      "id": "2",
+      "time_go": "21:25 - 23:40",
+      "description": "Lim - Cuz",
+      "type": "Directo",
+      "time_flight": "05h 15m",
+
+      "time_return": "08:00 - 11:50",
+      "description_return": "Cuz - Lim",
+      "type_return": "Directo",
+      "time_flight_return": "04h 15m",
+
+      "price": "S/. 200"
+    },
+    {
+      "id": "3",
+      "time_go": "21:25 - 23:40",
+      "description": "Lim - Cuz",
+      "type": "Directo",
+      "time_flight": "06h 15m",
+
+      "time_return": "08:00 - 11:50",
+      "description_return": "Cuz - Lim",
+      "type_return": "Directo",
+      "time_flight_return": "07h 15m",
+
+      "price": "S/. 300"
+    },
+    {
+      "id": "4",
+      "time_go": "21:25 - 23:40",
+      "description": "Lim - Cuz",
+      "type": "Directo",
+      "time_flight": "08h 15m",
+
+      "time_return": "08:00 - 11:50",
+      "description_return": "Cuz - Lim",
+      "type_return": "Directo",
+      "time_flight_return": "09h 15m",
+
+      "price": "S/. 400"
+    },
+    {
+      "id": "5",
+      "time_go": "21:25 - 23:40",
+      "description": "Lim - Cuz",
+      "type": "Directo",
+      "time_flight": "10h 15m",
+
+      "time_return": "08:00 - 11:50",
+      "description_return": "Cuz - Lim",
+      "type_return": "Directo",
+      "time_flight_return": "11h 15m",
+
+      "price": "S/. 500"
+    },
+    {
+      "id": "6",
+      "time_go": "21:25 - 23:40",
+      "description": "Lim - Cuz",
+      "type": "Directo",
+      "time_flight": "11h 15m",
+
+      "time_return": "08:00 - 11:50",
+      "description_return": "Cuz - Lim",
+      "type_return": "Directo",
+      "time_flight_return": "12h 15m",
+
+      "price": "S/. 600"
+    }
+  ]
+}
