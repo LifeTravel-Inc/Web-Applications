@@ -1,0 +1,83 @@
+.narvar {
+
+    background-color: #aad2f2af;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+span {
+    color: #0184ff;
+    cursor: pointer;
+}
+
+.main-container {
+    display: flex;
+}
+.title {
+    font-size: 20px;
+    text-decoration-line: underline;
+    color: #0c0c0cc6;
+    text-align: left;
+    font-weight: bold;
+    border-top: 6px solid #0184ff
+}
+col {
+    display: flex;
+    background-color: #1273cf;
+}
+
+button{
+    font-size: x-large;
+    letter-spacing: 5px;
+    font-weight: bold;
+    float: none;
+}
+.logo{
+    width: 300px;
+    height: 20rem;
+    position:fixed;
+    position:sticky;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.info{
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: rgb(89, 88, 88);
+    font-weight: bold;    
+}
+
+.credit-card{
+    width: 418px;
+    height: 100px;
+    margin: 1px;
+    padding-left: 40px;
+    float: left;
+    margin-left : 500px;
+    margin-bottom: 20px;
+    background-color: green;
+    flex-direction: column;
+    align-items: baseline;
+    cursor: pointer;
+    font-size: 60px;
+   
+
+  }
+.details{
+    
+    mask-position: 0%;
+    width: 418px;
+    margin: 1px;
+    height: 100px;
+    float: left;
+    padding-left: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #0184ff;
+    flex-direction: column;
+    
+  }
+

@@ -14,4 +14,7 @@ export class UserService {
       this.basePathUser,
       user);
   }
+  bookingPayment(user: User) {
+    return this.http.post<User>(this.basePathUser, user);
+  }
 }

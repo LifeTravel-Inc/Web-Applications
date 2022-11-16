@@ -11,11 +11,13 @@ import { LoginRegistrationAgencyComponent } from './components/login-registratio
 import { LoginUserComponent } from './components/login-user/login-user.component';
 import { HomeAgencyComponent } from './components/home-agency/home-agency.component';
 import { AgencyDestinoComponent } from './components/agency-destino/agency-destino.component';
-import { AngulaMaterialModule } from './components/shared/angula-material/angula-material.module';
+import { AngularMaterialModule } from './components/shared/angula-material/angula-material.module';
 import { DestinoDialogComponent } from './components/destino-dialog/destino-dialog.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
+import { BookingPaymentComponent } from './components/booking-payment/booking-payment.component';
+
 
 @NgModule({
   declarations: [
@@ -28,12 +30,14 @@ import { ReactiveFormsModule } from '@angular/forms';
     HomeAgencyComponent,
     AgencyDestinoComponent,
     DestinoDialogComponent,
-    NavbarComponent
+    BookingPaymentComponent,
+    NavbarComponent,
+   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule, AngulaMaterialModule, 
+    BrowserAnimationsModule, AngularMaterialModule, 
     HttpClientModule,ReactiveFormsModule  
   ],
   providers: [],

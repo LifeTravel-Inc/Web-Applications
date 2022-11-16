@@ -1,4 +1,5 @@
-import { NgModule } from '@angular/core';
+import { BookingPaymentComponent } from './components/booking-payment/booking-payment.component';
+import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './components/login/login.component';
 import { AgencyDestinoComponent } from './components/agency-destino/agency-destino.component';
@@ -9,6 +10,7 @@ import { LoginRegistrationComponent } from './components/login-registration/logi
 import { LoginUserComponent } from './components/login-user/login-user.component';
 
 
+
 const routes: Routes = [
   { path: '', component: LoginComponent },
   { path: 'login/agency', component: LoginAgencyComponent },
@@ -17,6 +19,7 @@ const routes: Routes = [
   { path: 'register/agency', component: LoginRegistrationAgencyComponent },
   { path: 'home/agency', component: HomeAgencyComponent },
   { path: 'agency/desti', component: AgencyDestinoComponent },
+  { path: 'booking/payment', component: BookingPaymentComponent },
 
 ];
 

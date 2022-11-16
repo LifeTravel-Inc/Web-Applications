@@ -1,0 +1,90 @@
+<mat-toolbar class="narvar">
+  <span routerLink="/">LIFETRAVEL</span>
+</mat-toolbar>
+<link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+  <h1 class= "title" > Resumen del Paquete</h1>
+  <li>
+    <img class=" logo" src="https://viajes.nationalgeographic.com.es/medio/2018/03/01/machu-picchu_5ff969ae_1280x720.jpg">
+  </li>
+<div class="info">
+  <div>
+  <mat-label> DESTINO </mat-label>
+  
+  <div class="info">
+    <div>
+    <mat-label> FECHA </mat-label>
+
+  <div class="info">
+      <div>
+      <mat-label> PASAJEROS</mat-label>
+
+  <div class="info">
+        <div>
+        <mat-label> TOTAL A PAGAR </mat-label>
+
+</div>
+</div>
+</div>
+</div>
+
+          <button
+            class="btn btn-success btn-lg float-right"
+            type="button"
+            style="margin-left: 10 px"
+            (click)="saveUser()"
+          >
+            PAGAR
+          </button>
+
+      <mat-card class="credit-card ">
+        <mat-card-title-group>
+          <i class="lni lni-visa"></i>
+          <i class="lni lni-mastercard"></i>
+          <mat-card-title>Tarjeta #1
+            Mastercard - 2789</mat-card-title>
+          <mat-card-subtitle>Renzo Herrera</mat-card-subtitle>
+         </mat-card-title-group>
+         <mat-card-content>
+          {{longText}}
+         </mat-card-content>
+       </mat-card>
+
+       <mat-card class="details ">
+        <mat-card-title-group>
+          <mat-card-title>Vuelo</mat-card-title>
+          <mat-card-subtitle>FLIGHT INFO</mat-card-subtitle>
+          <img mat-card-sm-image src="https://programacion.net/files/article/article_02184_.jpg" >
+         </mat-card-title-group>
+         <mat-card-content>
+          {{longText}}
+         </mat-card-content>
+       
+
+       <mat-card class="details">
+        <mat-card-title-group>
+          <mat-card-title>Hotel</mat-card-title>
+          <mat-card-subtitle>HOTEL INFO</mat-card-subtitle>
+          <img mat-card-sm-image src="https://w0.peakpx.com/wallpaper/673/818/HD-wallpaper-cusco-peru-night-night-city.jpg" >
+         </mat-card-title-group>
+         <mat-card-content>
+          {{longText}}
+         </mat-card-content>
+       
+
+       <mat-card class="details ">
+        <mat-card-title-group>
+          <mat-card-title>Actividades</mat-card-title>
+          <mat-card-subtitle>ACTIVITIES INFO</mat-card-subtitle>
+          <img mat-card-sm-image src="https://www.deaventura.pe/aplication/webroot/imgs/catalogo/trekking.jpg" >
+         </mat-card-title-group>
+         <mat-card-content>
+          {{longText}}
+         </mat-card-content>
+       </mat-card>
+      </mat-card>
+    </mat-card>
+
+
+
+
+   
